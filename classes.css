@@ -1,0 +1,12 @@
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.center-align{
+    text-align: center;
+}
+nav{
+    font-size: medium;
+}
