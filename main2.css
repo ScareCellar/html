@@ -1,0 +1,40 @@
+h1 {
+    color: orange;
+    size: 40px;
+}
+
+img {
+    border-width: 20px;
+    border-style: double;
+    border-color: white;
+    padding: 20px;
+}
+
+p {
+    color: orangered;
+    font: Merriweather;
+    padding: 5px;
+}
+
+ul {
+    color: orange;
+    
+}
+
+a {
+    color: cyan;
+}
+
+q {
+    color: gray;
+    padding-bottom: 5px;
+}
+
+table {
+    color: orange;
+}
+
+.background{
+    background-image: url("hollow.png");
+    background-color: black;
+}
