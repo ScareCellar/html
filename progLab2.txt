@@ -1,0 +1,208 @@
+main.css
+h1 {
+    color: blue;
+    size: 4px;
+}
+
+img {
+    border-width: 10px;
+    border-style: dashed;
+    border-color: blue;
+    padding: 5px;
+}
+
+p {
+    color: red;
+    font: Arial;
+    padding: 20px;
+}
+
+ul {
+    color: red;
+    
+}
+
+
+
+a {
+    color: red;
+}
+
+q {
+    color: purple;
+    padding-bottom: 10px;
+}
+
+.background{
+    background-color: yellow;
+}
+
+main2.css
+h1 {
+    color: orange;
+    size: 40px;
+}
+
+img {
+    border-width: 20px;
+    border-style: double;
+    border-color: white;
+    padding: 20px;
+}
+
+p {
+    color: orangered;
+    font: Merriweather;
+    padding: 5px;
+}
+
+ul {
+    color: orange;
+    
+}
+
+a {
+    color: cyan;
+}
+
+q {
+    color: gray;
+    padding-bottom: 5px;
+}
+
+table {
+    color: orange;
+}
+
+.background{
+    background-image: url("hollow.png");
+    background-color: black;
+}
+
+index.html
+<!DOCTYPE html>
+<html>  
+    <head>
+        <title>
+            Cameron Troy
+        </title>
+        <link rel="stylesheet" href="main2.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="Cool Things here">
+        <meta name="keywords" content="HTML, Learning, Neumont, Cameron">
+
+    </head>
+    
+    <body class="background">
+        <nav>
+            <a href="index.html"><b>Home</b></a>
+            <a href="interests.html">Interests</a>
+            <a href="favoriteSites.html">Favorite Sites</a>
+            <a href="futurePlans.html">Future Plans</a>
+        </nav>
+
+        <img src="picture.jpg" alt="Cameron"/>
+        <p>Hello everyone, my name is <em>Cameron Troy</em>. I am a Game Development student currently enrolled in Neumont University in the Software and Game Development Degree. I am also president of Book Club, Vice President of Horror Club, and published author of the book <em>Between the Walls</em>. I have also worked on a game published on steam called <em>Anomaly</em>.</p>
+
+        
+    </body>
+</html>
+
+<!--I hope for this website to be a prtfolio for my creative works.
+The styling I added was italicizing and changing the color of the words "Between the Walls"
+One thing I learned in todays class was how to get images into the website
+this page also includes a hyperlink to the website for my book-->
+
+interests.html
+<head>
+    <title>
+        Interests
+    </title>
+    <link rel="stylesheet" href="main2int.css">
+</head>
+
+<body>
+    <div class="background">
+        <nav>
+            <a href="index.html"><b>Home</b></a>
+            <a href="interests.html">Interests</a>
+            <a href="favoriteSites.html">Favorite Sites</a>
+            <a href="futurePlans.html">Future Plans</a>
+        </nav>
+        <img src="arcane.gif" alt="arcane"/>
+
+        <table>
+            <tr>
+                <th>Favorite Shows</th>
+                <td>Arcane</td>
+                <td>Cyberpunk: EdgeRunners</td>
+                <td>The Owl House</td>
+            </tr>
+            <tr>
+                <th>Favorite Books</th>
+                <td>Ambessa: Chosen of The Wolf  </td>
+                <td>Six of Crows</td>
+                <td>The Tainted Cup</td>
+            </tr>
+            <tr>
+                <th>Favorite Video Games</th>
+                <td>Hollow Knight: Silksong</td>
+                <td>Hollow Knight</td>
+                <td>The Outlast Trials</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+favoriteSites.html
+<head>
+    <title>
+        Favorite Sites
+    </title>
+    <link rel="stylesheet" href="main2.css">
+</head>
+<body>
+    <div class="background">
+        <nav>
+            <a href="index.html"><b>Home</b></a>
+            <a href="interests.html">Interests</a>
+            <a href="favoriteSites.html">Favorite Sites</a>
+            <a href="futurePlans.html">Future Plans</a>
+        </nav>
+        <h1>Favorite Websites</h1>
+        <ul>
+            <li><a href="https://www.barnesandnoble.com/w/between-the-walls-cameron-troy/1146300500">Between the Walls</a></li>
+            <li><a href="https://docs.google.com/document/u/0">Google Docs</a></li>
+            <li><a href="https://store.steampowered.com">Steam</a></li>
+            <li><a href="https://legendariumbooks.com">The Legendarium</a></li>
+            <li><a href="https://www.coolmathgames.com">Cool Math Games</a></li>
+            <li><a href="https://www.w3schools.com">W3 Schools</a></li>
+            <li><a href="https://www.dndbeyond.com">D&D Beyond</a></li>
+            <li><a href="https://www.writerduet.com">WriterDuet</a></li>
+        </ul>
+    </div>
+</body>
+
+futurePlans.html
+<head>
+    <title>
+        Future Plans
+    </title>
+    <link rel="stylesheet" href="main2.css">
+</head>
+<body>
+    <div class="background">
+        <nav>
+            <a href="index.html"><b>Home</b></a>
+            <a href="interests.html">Interests</a>
+            <a href="favoriteSites.html">Favorite Sites</a>
+            <a href="futurePlans.html">Future Plans</a>
+        </nav>
+        <q>If you shoot for the stars and miss, you'll still hit the sky</q>
+        <p> - Cameron Troy</p>
+
+        <p>After I graduate, I plan to work at a game Development company, learning skills necessary in the industry. I will likely stay in the field for several years, writing as a side hobby.</p>
+        <p>In due time, I will begin to move towards starting my own Indie Game-Dev studio. I hope for this game dev studio to grow enough for me to be able to help other indie devs gain the funding and publicity necessary to bring their games to the next level.</p>
+        <img src="gameGuy.png" alt="game guy"/>
+    </div>
+</body>
